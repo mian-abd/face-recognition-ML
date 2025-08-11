@@ -1,0 +1,62 @@
+# Data files
+data/
+application_data/
+*/application_data/
+*/data/
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.model
+my_model_checkpoint/
+training_checkpoints/
+*/my_model_checkpoint/
+*/training_checkpoints/
+
+# Cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Virtual environments
+faceid/
+faceid-py38/
+*/faceid/
+*/faceid-py38/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files and binaries
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+
+# Temporary files
+*.tmp
+*.temp
+*.log
